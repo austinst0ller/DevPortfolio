@@ -666,6 +666,7 @@ footer {
     }
     .header__para {
         font-size: 20px;
+        line-height: 1.5;
     }
     .modal {
         top: 0;
@@ -679,5 +680,33 @@ footer {
     }
     .modal__half {
         width: 100%;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .title {
+        font-size: 52px;
+    }
+    .header__para {
+        font-size: 18px;
+    }
+    .nav__link:first-child {
+        display: none;
+    }
+    .project__description--para {
+        display: none;
+    }
+    .project__description {
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+    }
+    .modal__half {
+        padding: 40px;
     }
 }
